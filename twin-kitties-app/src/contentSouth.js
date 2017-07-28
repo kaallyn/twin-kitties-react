@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles/contentSouth.css';
+import Footer from './footer.js';
 
 class ContentSouth extends Component {
   render() {
@@ -65,8 +66,10 @@ class ContentSouth extends Component {
                </div>
             </div>
 
-
+            <Footer />
       </section>
+
+
     );
   }
 }
