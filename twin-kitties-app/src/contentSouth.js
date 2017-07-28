@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/footer.css';
+import './styles/contentSouth.css';
 
 class ContentSouth extends Component {
   render() {
@@ -23,14 +23,14 @@ class ContentSouth extends Component {
                   </div>
                </div>
                <div className="why-c2">
-                  <img src="img/cat-icon.png" alt="Smiley face"  width="80%" />
+                  <img src={require("./img/cat-icon.png")} alt="Smiley face"  width="80%" />
                   <div className="column-desc">
                      <p>Lorem ipsum dolor sit amet, sapien etiam, nunc.</p>
                   </div>
                </div>
 
                <div className="why-c3">
-                  <img src="img/heart-icon.png" alt="Smiley face"  width="80%" />
+                  <img src={require("./img/heart-icon.png")} alt="Smiley face"  width="80%" />
                   <div className="column-desc">
                      <p>Lorem ipsum dolor sit amet, sapien etiam, nunc.</p> </div>
                </div>
@@ -45,7 +45,7 @@ class ContentSouth extends Component {
 
                   <div className="cat-c1">
                      <div className="cat-pic">
-                        <img src="img/mimi-square-small.png"  width="100%" />
+                        <img src={require("./img/mimi-square-small.png")}  alt="mimi" width="100%" />
                      </div>
                      <h3>Mimi</h3>
                      <div className="column-desc">
@@ -54,7 +54,7 @@ class ContentSouth extends Component {
 
                   <div className="cat-c2">
                      <div className="cat-pic">
-                        <img src="img/PAWS_New_Site__51_of_201__01-square.jpg"  width="100%" />
+                        <img src={require("./img/PAWS_New_Site__51_of_201__01-square.jpg")}  alt="cat2" width="100%" />
                      </div>
                      <h3>Cat Name</h3>
                      <div className="column-desc">

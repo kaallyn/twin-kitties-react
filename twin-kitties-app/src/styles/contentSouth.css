@@ -1,0 +1,134 @@
+.contentSouth {
+	overflow: hidden;
+	display: block;
+  position: relative;
+ /* top: -910px;*/
+  background-color: #F3F3F3;
+/*  opacity: .5;*/
+  z-index: 1;
+
+}
+
+.why {
+	padding: 30px;
+
+}
+
+.why img {
+	margin-left: 20px;
+}
+.why h2{
+	font-size: 35px;
+	text-align: center;
+	color: #F84544;
+}
+
+.why .button {
+	display: block;
+	text-align: center;
+	background-color: #FFD53F;
+	width:30%;
+	margin: 0 auto;
+	transition: all .2s ease-in-out;
+    color: #fff;
+    background-color: #FFD53F;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 11px 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: .9rem;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+	margin-bottom: 30px;
+	clear: both;
+}
+
+.why .button:hover {
+  background: #E5BF38;
+  /*opacity: .7; */
+}
+
+.why-c1, .why-c2, .why-c3{
+	float:left;
+	width: 33.333%;
+	padding:20px;
+
+}
+
+.column-desc {
+		font-size: 13px;
+		text-align: center;
+		margin-bottom: 40px;
+}
+
+
+
+.cats-container {
+	background-color: #C3B2B6;
+	overflow: hidden;
+/*	height:400px;*/
+}
+
+.cats-content h2{
+	text-align: center;
+	padding: 40px 0 20px 0;
+	font-size: 32px;
+
+}
+.cats-content h3 {
+	text-align: center;
+}
+
+.cat-c1, .cat-c2 {
+	width: 50%;
+	float:left;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+.cat-pic {
+	/*background-image: url(../img/20150214010711-Cat_016.jpg);*/
+	width:250px;
+	height: 250px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.cat-pic img {
+	border-radius: 48%;
+		width:250px;
+	height: 250px;
+		background-position: 0 0;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.cats-content .button {
+	display: block;
+	text-align: center;
+	width:30%;
+	margin: 0 auto;
+	transition: all .2s ease-in-out;
+    color: #fff;
+    background-color: #F56476;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 11px 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: .9rem;
+    text-transform: uppercase;
+/*margin-top: 400px;*/
+clear: both;
+	margin-bottom: 60px;
+
+}
+
+.cats-content .button:hover {
+  background: #DC5A6A;
+  /*opacity: .7; */
+}
