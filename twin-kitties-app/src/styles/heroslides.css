@@ -1,5 +1,4 @@
-.slide1 {
-  background-image: url(../img/1_Cat-Cafe_The-Plaid-Zebrajpg.jpg);
+.slide {
 	background-position: 0 0;
   background-repeat: no-repeat;
 	background-size: cover;
@@ -12,7 +11,7 @@
   transition-delay: 500ms;
 }
 
-.slide1::after {
+.slide::after {
   content: " ";
   background-color: #55F2DD;
 	opacity: .8;
@@ -21,4 +20,29 @@
 	overflow: hidden;
 	position: absolute;
   left: 0;
+}
+
+.slide1 {
+  background-image: url(../img/1_Cat-Cafe_The-Plaid-Zebrajpg.jpg);
+}
+
+.slide1::after {
+  background-color: #55F2DD;
+}
+
+.slide2 {
+  background-image: url(../img/DSC1834.jpg);
+}
+
+.slide2::after {
+  background-color: #E3F5A2;
+}
+
+.slide3 {
+  background-image: url(../img/20150214010711-Cat_016.jpg);
+}
+
+.slide3::after {
+  background-color: #C2E4F6;
+	opacity: .85;
 }

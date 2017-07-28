@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import '../styles/heroslides.css';
 
-class SlideOne extends Component {
+class SlideThree extends Component {
   render() {
     return (
 
-        <section className="clearfix slide slide1">
+        <section className="clearfix slide slide3">
               <div className="blurb">
-                 <h2>Where Cats and Coffee Come to Mingle</h2>
+                 <h2>Meet Our Cat Rescue: Animal Ark</h2>
                  <p>Lorem ipsum dolor sit amet, sapien etiam.</p>
                  <a className="button" href="#">Learn More</a>
               </div>
@@ -18,4 +18,4 @@ class SlideOne extends Component {
   }
 }
 
-export default SlideOne;
+export default SlideThree;

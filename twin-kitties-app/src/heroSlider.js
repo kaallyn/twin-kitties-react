@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './styles/heroslider.css';
 import SlideOne from './heroSlides/slideOne.js'
+import SlideTwo from './heroSlides/slideTwo.js'
+import SlideThree from './heroSlides/slideThree.js'
 
 class HeroSlider extends Component {
   render() {
@@ -20,7 +22,8 @@ class HeroSlider extends Component {
              <div className="arrow-line-south"></div>
           </div>
 
-          <SlideOne />
+
+          <SlideThree />
           </div>
       </div>
     );
