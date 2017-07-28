@@ -1,0 +1,24 @@
+.slide1 {
+  background-image: url(../img/1_Cat-Cafe_The-Plaid-Zebrajpg.jpg);
+	background-position: 0 0;
+  background-repeat: no-repeat;
+	background-size: cover;
+  overflow: hidden;
+  display: block;
+  height:440px;
+  position: relative;
+  z-index: 3;
+  transition: all 200ms ease-in-out;
+  transition-delay: 500ms;
+}
+
+.slide1::after {
+  content: " ";
+  background-color: #55F2DD;
+	opacity: .8;
+	height: 720px;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+  left: 0;
+}

@@ -1,24 +1,20 @@
+.containerFixed {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+
 .slidesContainer {
 	overflow: hidden;
 	z-index: 1;
-	padding-top: 279px;
+	/*padding-top: 279px;*/
 	position: relative;
 	max-height: 694px;
   background-color: pink;
 }
 
-.slide1 {
-  overflow: hidden;
-	display: block;
-  height:440px;
-  position: relative;
-
-/*  background-color: red;*/
-  z-index: 3;
-    transition: all 200ms ease-in-out;
-  transition-delay: 500ms;
-
-}
 
 .blurb {
 
