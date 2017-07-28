@@ -3,7 +3,7 @@ import './App.css';
 import './styles/fonts.css';
 import Header from './header.js';
 import Footer from './footer.js';
-import HeroSlider from './heroSlider.js';
+import HeroSlider2 from './heroSlider2.js';
 import ContentSouth from './contentSouth.js';
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
 
         <Header />
-        <HeroSlider />
+        <HeroSlider2 />
         <ContentSouth />
 
       </div>
