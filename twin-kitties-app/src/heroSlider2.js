@@ -20,6 +20,12 @@ class HeroSlider2 extends Component {
       buttonText= "hide comments";
     }
 
+    let currentSlide = <SlideOne />;
+    if (this.state.showNextSlide) {
+      currentSlide = <SlideTwo />;
+    }
+
+
 
 
     return (
@@ -31,17 +37,21 @@ class HeroSlider2 extends Component {
 
           <div className="arrow-left">
              <div className="arrow-line-north"></div>
-             <button onClick={this._handleClick.bind(this)}>{buttonText}</button>
+             <button onClick={this._handleClick.bind(this)}></button>
+             <p>{buttonText}</p>
              <div className="arrow-line-south"></div>
           </div>
 
           <div className="arrow-right">
              <div className="arrow-line-north"></div>
+             <button onClick={this._nextClick.bind(this)}>next slide</button>
              <div className="arrow-line-south"></div>
           </div>
 
 
-          <SlideThree />
+
+          {currentSlide}
+
 
           </div>
       </div>
@@ -51,6 +61,12 @@ class HeroSlider2 extends Component {
   _handleClick() {
       this.setState({
         showComments: !this.state.showComments
+      });
+  }
+
+  _nextClick() {
+      this.setState({
+        showNextSlide: !this.state.showNextSlide
       });
   }
 
